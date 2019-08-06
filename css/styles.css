@@ -1,0 +1,155 @@
+*{
+  box-sizing: border-box;
+}
+
+[class*="col-"] {
+  border: 1px solid red;
+}
+
+.box{
+  margin: 0px;
+  position: relative;
+  background-color: #008080;
+  padding-bottom: 20%;
+  
+}
+
+.name{
+  margin: 0;
+  margin-bottom:0px; 
+  text-align: center;
+  margin-top: 30px;
+  font-size: 300%;
+  font-family: 'Condiment', cursive; 
+  color: #800000;
+}
+
+.top-cloud{
+  position: relative;
+  width: 150px;
+  top: 5em;
+  right:-55%;
+}
+
+.bot-cloud{
+  position: relative;
+  width: 150px;
+  right: -30%;
+}
+
+.left-dog{
+  width: 150px;
+  position: relative;
+  right: -70%;
+  bottom: -18em;
+  
+}
+
+.right-dog{
+  width: 150px;
+  position: relative;
+  bottom: -18em;
+  right: 18%;
+
+}
+
+.intro{
+  text-align:center;
+  font-family: 'Condiment', cursive;
+  color: #A52A2A;
+  font-size: 150%; 
+  margin:0px;
+  margin-top: 2%;
+}
+
+.mid-img{
+  width: 350px;
+  position: relative;
+  bottom: -18em;
+  right: -4%;
+}
+
+.me{
+  text-align: center;
+  margin-top: 10%;
+  font-family: Montserrat, sans-serif;
+  color: #8BBABB; 
+  font-size: 150%;
+}
+
+.boy{
+  margin-top: 5%;
+}
+
+.hi{
+  margin-top: 2%;
+  text-align: center;
+  font-size: 150%;
+  font-family: Montserrat, sans-serif;
+  color: #8BBABB;
+
+}
+
+.talk{
+  margin: 10% auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.talk-img{
+  height: 15em;
+  float: left;
+  position: relative;
+  margin-bottom: 20%; 
+}
+
+.container-1{
+  width: 40%;
+  margin: 10% auto;
+  line-height: 2;
+}
+
+.code-img{
+  float: right;
+  width: 15em;
+  position: relative;
+  margin-bottom: 20%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+footer{
+  background-color: lightblue;
+  text-align: center;
+  padding: 2% 30%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  
+  .left-dog{
+  width: 100px;
+  position: relative;
+  right: -45%;
+  bottom: -10em;
+  
+  }
+
+  .right-dog{
+  width: 100px;
+  position: relative;
+  bottom: -10em;
+  right: 50%;
+
+  }
+
+  .mid-img{
+  width: 200px;
+  position: relative;
+  bottom: -1.7em;
+  right: -30%;
+  }
+
+}
